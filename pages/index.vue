@@ -34,7 +34,6 @@
 <script lang="ts">
 import { Component, Vue, Watch } from "vue-property-decorator";
 import http from "../services/http.services";
-import listaPokemons from "../services/conexoesApi";
 
 @Component({})
 export default class Home extends Vue {
