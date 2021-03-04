@@ -51,7 +51,7 @@ export default class CardPokemom extends Vue {
   private modal = useModal();
 
   viewPokemom() {
-    this.$router.push(`/pokemom/${this.codigoPokemom}`);
+    this.$router.push(`/${this.codigoPokemom}/pokemom`);
   }
 
   handleLogin() {
